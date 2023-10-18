@@ -1,0 +1,244 @@
+:root{
+    --white: #f7f7f7;
+    --black: #101010;
+    --max-widht:1100px;
+
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+
+}
+header{
+    background-color: #f7f7f7;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: var(--max-widht);
+}
+.menu>ul>li>a{
+    color: var(--black);
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+ul>li:nth-child(3){
+    list-style: circle;
+    color: red; 
+}
+.menu>ul{
+    display: flex;
+    gap: 30px;
+}
+
+.weather{
+    display: flex;
+    gap: 30px;
+}
+.img-huwaalt{
+    display: flex;
+    gap: 10px;
+}
+.img-huwwalt>p{
+    color: #101010;
+    font-size: 1.4rem;
+}
+.dollar{
+    color: green;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.unshih{
+    background-image: url(./duran.jpeg);
+    width: 560px;
+    height: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.second-btn{
+    display: flex;
+}
+.second-header{
+    display:flex;
+    border-radius: 20px;
+    text-shadow: 1px 1px 1px hsla(0, 0%, 100%, .004);
+    background: linear-gradient(90deg,#f4f4f4 7%,hsla(0,0%,100%,.220348) 17%);  
+    width: var(--max-widht);
+}
+.ug{
+    padding: 40px 40px 60px 50px;
+
+}
+.btn{
+    color: #fff;
+    background: linear-gradient(129deg,#c40097,#d6710b);
+    background-image: linear-gradient(-120deg,#e08100,#c90027);
+    border-radius: 20px; 
+    display: flex; 
+    padding: 10px;
+    width:100px;
+    margin-top: 40px ;
+}
+.title{
+    transition: all .2s ease-in-out;
+    font-size: 2rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.img{
+    width: 542px;
+    height: 385px;
+    border-radius: 1%;
+}
+.third-header{
+    display: flex;
+    gap: 15px;
+    align-items: start;
+    width: var(--max-widht);
+}
+.zurg{
+    border-radius: 20px;
+    width: 232px;
+    height: 175px;
+    background: url(./noat.jpeg);
+    background-repeat: no repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.zurg2{
+    border-radius: 20px;
+    width: 232px;
+    height: 175px;
+    background: url(./hudgar.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.zurg3{
+    border-radius: 20px;
+    width: 232px;
+    height: 175px;
+    background: url(./amisgaanud.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card1{
+    width: 232px;
+}
+.card2{
+    width: 232px;
+}
+.card3{
+    width: 232px;
+}
+.card4{
+    width: 272px;
+    height: 279px;
+    border-radius: 20px;
+}
+.gogo-logo{
+    width: 119px;
+    height: 38px;
+}
+.story1{
+    background-image: url(./ser.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 170px;
+    height: 235px;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.story1:hover{
+    background-image: 120%;
+    cursor: pointer;
+    transition: ease-in-out 2s;
+}
+.gogo-story{
+    width: var(--max-widht);
+}
+.story2{
+    gap: 15px;
+    display: flex;
+    overflow: scroll;
+    width: 100%;
+}
+.logo{
+    border-radius: 50%;
+    background-color: rgb(66, 170, 239);
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card4{
+    background-image: url(./khan\ bank.jpg);
+    background-image: url(./3.0.jpg);
+    background-image: url(./fuze\ tea.png);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 3px;
+    background-position: center;
+    background-size: contain;
+
+}
+.btn1{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color:rgb(72, 155, 207);
+}
+.btn1:hover{
+    background-color: blue;
+    opacity: 1;
+
+}
+.btn2{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color:rgb(72, 155, 207);
+}
+.btn3{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color:rgb(72, 155, 207);
+    margin-right: 20px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
