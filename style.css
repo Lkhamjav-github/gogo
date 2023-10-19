@@ -96,6 +96,15 @@ ul>li:nth-child(3){
     font-size: 2rem;
     padding-top: 40px;
     padding-bottom: 40px;
+    display: flex;
+}
+.str{
+    color: #fff;
+    background-color: rgb(62, 146, 174);
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    margin-left: 10px;
 }
 .img{
     width: 542px;
@@ -241,4 +250,176 @@ ul>li:nth-child(3){
     display: flex;
     align-items: center;
     flex-direction: column;
+
+}
+
+.nawc{
+    width: 23px;
+    height: 26px;
+}
+.today-calendar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.today_calendar-btn{
+    width: 103px;
+    height: 7px;
+    border-radius: 10px;
+    background-color: #efefef;
+}
+.today_calndar-btn:hover{
+    background-color: rgb(83, 145, 189);
+}
+.today_calendar-day{
+    color: #efefef;
+}
+.today_calendar-day:hover{
+    color: rgb(83, 145, 189);
+    cursor: pointer;
+}
+.today_calendar{
+    display: flex;
+    gap: 15px;
+}
+.medee{
+    display: flex;
+    padding-top: 30px;
+    gap: 30px;
+}
+.medee-img{
+    background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2023/10/311989-19102023-1697701212-49448566-hilchin.jpg);
+    width: 210px;
+    height: 150px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+}
+.surtcilga-img{
+    height: 245px;
+    display: flex;
+}
+h1{
+    width: 450px;
+    margin-top: 0px;
+}
+p{
+    max-width: 450px;
+    color: #888888;
+}
+.medee-reaction{
+    display: flex;
+    color: #888888;
+}
+.medee-reaction>p{
+    margin-top: 0px;
+    padding-right: 30px;
+    color: #888888;
+
+}
+.medee-btn{
+    background: #f8f8f8;
+    border: 1px solid #f2f2f2;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 690px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+}
+.medee-btn>img{
+    width: 17px;
+    height: 21px;
+}
+.first-section{
+    display: flex;
+    width: var(--max-widht);
+}
+
+.right{
+    border-left: 1px solid #efefef;
+    padding-left:30px ;
+    margin-left: 100px;
+}
+.aside-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.aside-news{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.aside-img{
+    background-image: url(https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/10/311973-19102023-1697685170-432267997-0f049191a0be463d81a8001c4ed159f3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #efefef;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 170px;
+
+}
+.aside-read{
+    font-size: 1.6rem;
+}
+.aside-reaction{
+    display: flex;
+    color: #efefef;
+}
+.aside-reaction>p{
+    margin-top: 0;
+    padding-left: 2px;
+    padding-right: 10px;
+}
+.aside-trend{
+    background-color: rgb(167, 88, 3);
+}
+.aside_trend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trend1{
+    display: flex;
+}
+.number{
+    font-size: 46px;
+    color: #e00034;
+
+}
+.trend-reaction{
+    display: flex;
+    color: #888888;
+}
+.trend-reaction>p{
+    color: #888888;
+    margin-top: 0;
+}
+hr{
+    border-top: 1px dashed #888888;
+    padding: 10px;
+}
+.talk-card{
+    background-image: url(https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/10/311560-13102023-1697170235-1782031612-111.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 545px;
+    height: 500px;
 }
