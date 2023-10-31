@@ -12,7 +12,7 @@ body{
 
 }
 header{
-    background-color: #f7f7f7;
+    background-color: #1a1a1a;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@ header{
     width: var(--max-widht);
 }
 .menu>ul>li>a{
-    color: var(--black);
+    color: #fff;
     text-decoration: none;
 }
 ul{
@@ -47,9 +47,10 @@ ul>li:nth-child(3){
 .img-huwaalt{
     display: flex;
     gap: 10px;
+    color: #fff;
 }
-.img-huwwalt>p{
-    color: #101010;
+.img-huwaalt>p{
+    color: #fff;
     font-size: 1.4rem;
 }
 .dollar{
@@ -59,13 +60,66 @@ ul>li:nth-child(3){
     display: flex;
 }
 .unshih{
-    background-image: url(./duran.jpeg);
+    width: 560px;
+    height: 385px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+}
+.unshih-read{
     width: 560px;
     height: 385px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    opacity: 0;
+}
+.unshih-read:hover{
+    background-position: cover;
+    color: #fff;
+    opacity: 1;
+    transition: ease-in-out;
+    transform: 2ms;
+}
+
+.sun{
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+}
+.sun>p{
+    height: 20px;
+    margin: 0;
+    color: #fff;
+}
+.calendar{
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+}
+.calendar>p{
+    height: 20px;
+    margin: 0;
+    color: #fff;
+}
+.img-huwaalt>p{
+    height: 20px;
+    margin: 7px;
+    color: #fff;
+}
+.valyut{
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+}
+.valyut>p{
+    height: 20px;
+    margin: 0;
+    color: #fff;
 }
 .second-btn{
     display: flex;
@@ -74,12 +128,34 @@ ul>li:nth-child(3){
     display:flex;
     border-radius: 20px;
     text-shadow: 1px 1px 1px hsla(0, 0%, 100%, .004);
-    background: linear-gradient(90deg,#f4f4f4 7%,hsla(0,0%,100%,.220348) 17%);  
+    background: #6c6c6c;  
     width: var(--max-widht);
+    height: 385px;
 }
 .ug{
-    padding: 40px 40px 60px 50px;
+    padding: 0px 40px 60px 50px;
 
+}
+
+.share{
+    background-color: #d3cfcf;
+    border-radius: 20px;
+    padding: 10px;
+    color: #767676;
+    gap: 5px;
+    display: flex;
+}
+.share:hover{
+    background-color: #fff;
+    padding: 10px 20px 10px 20px;
+}
+
+.comment{
+    display: flex;
+    color: #767676;
+    gap: 5px;
+    padding:10px;
+    
 }
 .btn{
     color: #fff;
@@ -90,14 +166,24 @@ ul>li:nth-child(3){
     padding: 10px;
     width:100px;
     margin-top: 40px ;
+    align-items: center;
+    justify-content: center;
 }
 .title{
+    transition: all .2s ease-in-out;
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    display: flex;
+}
+.title2{
     transition: all .2s ease-in-out;
     font-size: 2rem;
     padding-top: 40px;
     padding-bottom: 40px;
     display: flex;
 }
+
 .str{
     color: #fff;
     background-color: rgb(62, 146, 174);
@@ -113,13 +199,18 @@ ul>li:nth-child(3){
 }
 .third-header{
     display: flex;
-    gap: 15px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    gap: 45px;
     align-items: start;
     width: var(--max-widht);
 }
+.third-header-tailbar{
+    color: #fff;
+}
 .zurg{
-    border-radius: 20px;
-    width: 232px;
+    border-radius: 10px;
+    width: 263.75px;
     height: 175px;
     background: url(./noat.jpeg);
     background-repeat: no repeat;
@@ -129,31 +220,23 @@ ul>li:nth-child(3){
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: absolute;
 }
-.zurg2{
-    border-radius: 20px;
-    width: 232px;
+.zurg-read{
+    border-radius: 10px;
+    width: 263.75px;
     height: 175px;
-    background: url(./hudgar.jpeg);
     display: flex;
     justify-content: center;
     align-items: center;
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+    color: #fff;
+    position: relative;
+    opacity: 0;
 
-.zurg3{
-    border-radius: 20px;
-    width: 232px;
-    height: 175px;
-    background: url(./amisgaanud.jpeg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+}
+.zurg-read:hover{
+    opacity: 1;
 }
 .card1{
     width: 232px;
@@ -349,7 +432,6 @@ p{
 .right{
     border-left: 1px solid #efefef;
     padding-left:30px ;
-    margin-left: 100px;
 }
 .aside-title{
     display: flex;
@@ -453,6 +535,7 @@ hr{
 .hew-mayg{
     display: flex;
     width: var(--max-widht);
+    gap: 30px;
 }
 .hew-mayg-card{
     border: 1px solid black;
