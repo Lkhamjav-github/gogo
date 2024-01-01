@@ -236,7 +236,7 @@ ul>li:nth-child(3) {
 
 .str {
     color: #fff;
-    background-color: rgb(62, 146, 174);
+    background-color: rgb(66, 170, 239);
     border-radius: 10px;
     font-weight: 900;
     font-size: 1.8rem;
@@ -330,6 +330,7 @@ ul>li:nth-child(3) {
     justify-content: space-between;
     display: flex;
     flex-direction: column;
+    color: #fff;
 }
 
 .story1:hover {
