@@ -305,12 +305,14 @@ ul>i {
 }
 
 .story1 {
-    background-image: url(./ser.jpeg);
+    background-image: url(https://mgl.gogo.mn/newsn/story/268946-14022021-1613281726-1202919399-valentine-65cd7a86aa3ec923977219.jpg);
     background-position: center;
+    background-image: linear-gradient(to bottom, none, black);
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 170px;
     height: 235px;
+    color: white;
     border-radius: 20px;
     padding: 10px;
     justify-content: space-between;
@@ -584,6 +586,7 @@ p {
     color: #e00034;
 
 }
+
 
 .trend-reaction {
     display: flex;
