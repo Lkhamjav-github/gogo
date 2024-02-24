@@ -23,7 +23,7 @@ header {
 .header {
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
+    padding: 20px 0;
     width: var(--max-widht);
 }
 
@@ -91,6 +91,12 @@ ul>i {
 
 }
 
+
+
+.unshih:hover {
+    object-fit: cover;
+}
+
 .unshih-read {
     position: relative;
     width: 560px;
@@ -112,6 +118,7 @@ ul>i {
     position: relative;
     background: rgba(34, 34, 34, .5);
     background-position: cover;
+    object-fit: cover;
 
     color: #fff;
     opacity: 1;
@@ -213,7 +220,9 @@ ul>i {
 
 .title {
     transition: all .2s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
+    font-weight: 700px;
     padding-top: 10px;
     padding-bottom: 40px;
     display: flex;
@@ -285,8 +294,15 @@ ul>i {
 
 }
 
+
 .zurg-read:hover {
+    background: rgba(34, 34, 34, .5);
+    background-position: cover;
+    object-fit: cover;
+
+    color: #fff;
     opacity: 1;
+    transition: 1s ease-in-out;
 }
 
 .card1 {
@@ -450,6 +466,14 @@ ul>i {
     gap: 15px;
 }
 
+.mori {
+    width: 210px;
+    height: 150px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+}
+
 .medee {
     display: flex;
     padding-top: 30px;
@@ -457,17 +481,29 @@ ul>i {
 }
 
 .medee-img {
-    background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2023/10/311989-19102023-1697701212-49448566-hilchin.jpg);
+    position: relative;
     width: 210px;
     height: 150px;
-    background-position: center;
-    background-size: contain;
-    border-radius: 20px;
     display: flex;
+    gap: 10px;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
     color: #fff;
+    position: relative;
+    opacity: 0;
+    transition: 3s;
+}
 
+.medee-img:hover {
+    position: relative;
+    background: rgba(34, 34, 34, .5);
+    background-position: cover;
+    object-fit: cover;
+    color: #fff;
+    opacity: 1;
+    transition: 1s ease-in-out;
 }
 
 .surtcilga-img {
@@ -478,6 +514,9 @@ ul>i {
 h1 {
     width: 450px;
     margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 700;
 }
 
 p {
@@ -537,30 +576,55 @@ p {
 .aside-news {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
+}
+
+.police {
+    position: absolute;
+    width: 290px;
+    height: 170px;
+    border-radius: 10px;
+
 }
 
 .aside-img {
-    background-image: url(https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/10/311973-19102023-1697685170-432267997-0f049191a0be463d81a8001c4ed159f3.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #efefef;
-    border-radius: 20px;
     display: flex;
-    justify-content: center;
+    gap: 10px;
     align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    opacity: 0;
+    transition: 3s;
+    position: relative;
     width: 290px;
     height: 170px;
 
 }
 
+.aside-img:hover {
+    position: relative;
+    background: rgba(34, 34, 34, .5);
+    background-position: cover;
+    object-fit: cover;
+
+    color: #fff;
+    opacity: 1;
+    transition: 1s ease-in-out;
+}
+
+
 .aside-read {
-    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .aside-reaction {
     display: flex;
+    padding-bottom: 15px;
     color: #efefef;
 }
 
@@ -618,9 +682,30 @@ p {
 hr {
     border-top: 1px initial #888888;
 } */
+.talk {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.talk>img {
+    width: 20px;
+    height: 25px;
+}
+
+.talk>a {
+    text-decoration: dashed;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+
+}
 
 .talk-card {
-    background-image: url(https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/10/311560-13102023-1697170235-1782031612-111.jpg);
+    background-image: url(./doljin.jpg);
     background-position: center;
     background-size: cover;
     width: 545px;
@@ -630,12 +715,54 @@ hr {
     align-items: end;
 }
 
+.card-btn {
+    background-color: #407ce8;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.second-btn {
+    background-color: #407ce8;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.card-read {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.second-read {
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .second-section {
     width: var(--max-widht);
     display: flex;
 }
 
 .second-card-huwaalt {
+    padding-top: 14px;
     margin-top: 54px;
     display: flex;
     gap: 15px;
